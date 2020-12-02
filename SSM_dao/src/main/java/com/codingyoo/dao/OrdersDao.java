@@ -24,9 +24,7 @@ public interface OrdersDao {
             @Result(property = "payType",column = "payType"),
             @Result(property = "orderDesc",column = "orderDesc"),
             @Result(property = "product",column = "producid",javaType = Product.class,one = @One(select = "com.codingyoo.dao.IProductDao.findById"))
-            //@Result(property = "member",column = "memberid",javaType = Member.class,one = @One(select = "com.codingyoo.dao.MemberDao.findById")),
-            //@Result(property = "travellers",column = "id",javaType = java.util.List.class,one = @One(select = "com.codingyoo.dao.TravellerDao.findByOrderId"))
-    })
+            })
     List<Orders> findAll();
 
     //订单详情
