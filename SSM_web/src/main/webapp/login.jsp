@@ -65,7 +65,6 @@
 		<!-- /.login-box-body -->
 	</div>
 	<!-- /.login-box -->
-
 	<!-- jQuery 2.2.3 -->
 	<!-- Bootstrap 3.3.6 -->
 	<!-- iCheck -->
