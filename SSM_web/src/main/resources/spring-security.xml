@@ -29,7 +29,7 @@
 				login-processing-url="/login.do"
 				default-target-url="/index.jsp"
 				authentication-failure-url="/failer.jsp"
-				authentication-success-forward-url="/pages/main.jsps"
+				authentication-success-forward-url="/pages/main.jsp"
 		/>
 
 		<!-- 关闭跨域请求 -->
